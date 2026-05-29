@@ -1,58 +1,69 @@
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-brand-50 via-white to-white">
-      <div
-        aria-hidden
-        className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl"
-      >
-        <div className="relative left-1/2 aspect-[1155/678] w-[60rem] -translate-x-1/2 bg-gradient-to-tr from-brand-400 to-brand-700 opacity-20" />
-      </div>
-      <div className="mx-auto max-w-6xl px-6 pt-24 pb-28 sm:pt-32 sm:pb-36">
-        <div className="mx-auto max-w-3xl text-center">
-          <span className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white/80 px-3 py-1 text-xs font-medium text-brand-700">
-            <span className="h-1.5 w-1.5 rounded-full bg-brand-500" />
-            소프트웨어 개발 전문 기업
-          </span>
-          <h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl">
-            비즈니스의 길을
-            <br />
-            <span className="bg-gradient-to-r from-brand-600 to-brand-400 bg-clip-text text-transparent">
-              코드로 잇습니다.
-            </span>
-          </h1>
-          <p className="mt-6 text-lg leading-8 text-slate-600 sm:text-xl">
-            주식회사 인스로드는 웹·모바일·클라우드 기술로
-            <br className="hidden sm:block" />
-            고객의 디지털 전환을 가장 빠르고 안정적으로 실현합니다.
-          </p>
-          <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
-            <a
-              href="#contact"
-              className="inline-flex h-12 w-full items-center justify-center rounded-full bg-brand-600 px-7 text-sm font-semibold text-white shadow-lg shadow-brand-600/20 transition hover:bg-brand-700 sm:w-auto"
-            >
-              프로젝트 문의하기
-            </a>
-            <a
-              href="#services"
-              className="inline-flex h-12 w-full items-center justify-center rounded-full border border-slate-300 bg-white px-7 text-sm font-semibold text-slate-900 transition hover:bg-slate-50 sm:w-auto"
-            >
-              서비스 살펴보기
-            </a>
-          </div>
+    <section className="relative">
+      <div className="mx-auto max-w-6xl px-6 pt-28 pb-32 sm:px-10 sm:pt-40 sm:pb-44">
+        <div className="flex items-center gap-4 text-xs uppercase tracking-[0.24em] text-stone-500">
+          <span className="h-px w-10 bg-stone-300" />
+          Software Studio · Est. Seoul
         </div>
 
-        <dl className="mx-auto mt-20 grid max-w-4xl grid-cols-2 gap-y-8 gap-x-6 sm:grid-cols-4">
+        <h1 className="mt-10 max-w-4xl text-5xl leading-[1.05] tracking-tight text-stone-900 sm:text-7xl md:text-[88px]">
+          고요한 기술,
+          <br />
+          <span className="font-[family-name:var(--font-serif)] italic font-normal text-stone-700">
+            깊은 결과.
+          </span>
+        </h1>
+
+        <p className="mt-10 max-w-xl text-base leading-7 text-stone-600 sm:text-lg sm:leading-8">
+          주식회사 인스로드는 군더더기 없는 코드와 정제된 디자인으로
+          비즈니스의 본질에 집중하는 소프트웨어 스튜디오입니다.
+        </p>
+
+        <div className="mt-12 flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-10">
+          <a
+            href="#contact"
+            className="group inline-flex items-center gap-3 text-sm tracking-wide text-stone-900"
+          >
+            <span className="border-b border-stone-900 pb-1">
+              프로젝트 시작하기
+            </span>
+            <span
+              aria-hidden
+              className="transition-transform group-hover:translate-x-1"
+            >
+              →
+            </span>
+          </a>
+          <a
+            href="#services"
+            className="text-sm tracking-wide text-stone-500 transition hover:text-stone-900"
+          >
+            서비스 둘러보기
+          </a>
+        </div>
+      </div>
+
+      <div className="border-y border-stone-200">
+        <dl className="mx-auto grid max-w-6xl grid-cols-2 divide-stone-200 px-6 sm:grid-cols-4 sm:divide-x sm:px-10">
           {[
-            { k: "100+", v: "프로젝트 수행" },
-            { k: "50+", v: "협력 고객사" },
-            { k: "10년+", v: "현장 노하우" },
-            { k: "24/7", v: "기술 지원" },
-          ].map((s) => (
-            <div key={s.v} className="flex flex-col items-center text-center">
-              <dt className="text-3xl font-bold text-slate-900 sm:text-4xl">
+            { k: "2014", v: "Founded" },
+            { k: "100+", v: "Projects shipped" },
+            { k: "50+", v: "Long-term clients" },
+            { k: "12", v: "Studio members" },
+          ].map((s, i) => (
+            <div
+              key={s.v}
+              className={`flex flex-col gap-2 px-2 py-10 sm:px-8 ${
+                i < 2 ? "border-b border-stone-200 sm:border-b-0" : ""
+              }`}
+            >
+              <dt className="font-[family-name:var(--font-serif)] text-4xl text-stone-900 sm:text-5xl">
                 {s.k}
               </dt>
-              <dd className="mt-1 text-sm text-slate-500">{s.v}</dd>
+              <dd className="text-xs uppercase tracking-[0.18em] text-stone-500">
+                {s.v}
+              </dd>
             </div>
           ))}
         </dl>

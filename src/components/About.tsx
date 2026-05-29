@@ -1,68 +1,71 @@
-const values = [
+const principles = [
   {
-    title: "신뢰",
+    title: "Less, but better.",
     description:
-      "납기와 품질에 대한 약속을 지키며, 투명한 커뮤니케이션으로 고객과 동행합니다.",
+      "필요한 것만 남기고 비웁니다. 단순함이 가장 신뢰할 수 있는 구조라고 믿습니다.",
   },
   {
-    title: "전문성",
+    title: "Craft over speed.",
     description:
-      "최신 기술과 검증된 아키텍처로 비즈니스 문제를 가장 효율적인 방식으로 해결합니다.",
+      "빠르게 만드는 것보다 오래 가는 것을 만듭니다. 코드 한 줄, 픽셀 하나에 정성을 둡니다.",
   },
   {
-    title: "지속성",
+    title: "In quiet, we listen.",
     description:
-      "단순 납품을 넘어 운영·고도화 단계까지 함께하는 장기 파트너가 되겠습니다.",
+      "고객의 문제를 깊이 들여다본 후 움직입니다. 좋은 질문이 좋은 결과를 만든다고 생각합니다.",
   },
 ];
 
 export function About() {
   return (
-    <section id="about" className="bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6">
-        <div className="grid gap-16 lg:grid-cols-2 lg:gap-20">
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-brand-600">
-              About INSROAD
-            </p>
-            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              기술로 길을 만드는 회사,
+    <section id="about" className="bg-stone-50">
+      <div className="mx-auto max-w-6xl px-6 py-28 sm:px-10 sm:py-40">
+        <div className="grid gap-20 lg:grid-cols-12 lg:gap-16">
+          <div className="lg:col-span-5">
+            <div className="flex items-center gap-4 text-xs uppercase tracking-[0.24em] text-stone-500">
+              <span className="h-px w-10 bg-stone-300" />
+              About
+            </div>
+            <h2 className="mt-8 font-[family-name:var(--font-serif)] text-4xl leading-[1.15] text-stone-900 sm:text-5xl">
+              기술로 길을 잇는,
               <br />
-              주식회사 인스로드.
+              조용한 장인들.
             </h2>
-            <p className="mt-6 text-base leading-7 text-slate-600">
-              인스로드(INSROAD)는 &lsquo;Insight&rsquo;와 &lsquo;Road&rsquo;의
-              합성어로, 통찰력 있는 기술로 고객의 새로운 길을 열어간다는 의미를
-              담고 있습니다. 우리는 작은 스타트업부터 대규모 엔터프라이즈까지,
-              규모와 산업에 구애받지 않고 비즈니스의 본질에 집중한 소프트웨어를
-              만들어 왔습니다.
-            </p>
-            <p className="mt-4 text-base leading-7 text-slate-600">
-              기획부터 개발, 배포, 그리고 운영까지 — 제품의 전 주기를 함께
-              책임지는 진짜 기술 파트너가 되겠습니다.
-            </p>
           </div>
 
-          <ul className="grid gap-6">
-            {values.map((v, idx) => (
-              <li
-                key={v.title}
-                className="group relative flex gap-5 rounded-2xl border border-slate-200 bg-white p-6 transition hover:border-brand-300 hover:shadow-md"
-              >
-                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-lg bg-brand-50 text-sm font-bold text-brand-700">
-                  0{idx + 1}
-                </span>
-                <div>
-                  <h3 className="text-lg font-semibold text-slate-900">
-                    {v.title}
-                  </h3>
-                  <p className="mt-1 text-sm leading-6 text-slate-600">
-                    {v.description}
-                  </p>
-                </div>
-              </li>
-            ))}
-          </ul>
+          <div className="lg:col-span-7">
+            <p className="text-base leading-8 text-stone-600 sm:text-lg">
+              인스로드(INSROAD)는 통찰(Insight)과 길(Road)을 잇는 이름입니다.
+              우리는 화려한 기술 트렌드보다 비즈니스의 본질에 더 오래 머무릅니다.
+              스타트업의 첫 제품부터 엔터프라이즈의 장기 운영까지, 규모와
+              산업에 구애받지 않고 코드로 답을 찾아 왔습니다.
+            </p>
+            <p className="mt-6 text-base leading-8 text-stone-600 sm:text-lg">
+              기획부터 설계, 개발, 운영까지 — 하나의 흐름으로 책임지는
+              파트너가 되겠습니다.
+            </p>
+
+            <ul className="mt-16 divide-y divide-stone-200 border-t border-stone-200">
+              {principles.map((p, idx) => (
+                <li
+                  key={p.title}
+                  className="grid grid-cols-[auto_1fr] gap-x-8 py-8 sm:grid-cols-[80px_1fr]"
+                >
+                  <span className="font-[family-name:var(--font-serif)] text-2xl text-stone-400">
+                    {String(idx + 1).padStart(2, "0")}
+                  </span>
+                  <div>
+                    <h3 className="text-lg text-stone-900 sm:text-xl">
+                      {p.title}
+                    </h3>
+                    <p className="mt-2 text-sm leading-7 text-stone-600 sm:text-base">
+                      {p.description}
+                    </p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </section>
