@@ -76,7 +76,7 @@ export default function Home() {
         <div className="grid-lines" />
         <div className="hero-logo">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/insroad-logo.png" alt="InsRoad 로고" />
+          <img src="/insroad-logo.svg" alt="InsRoad 로고" />
         </div>
         <div className="wrap hero-inner">
           <span className="eyebrow">Software Company</span>
