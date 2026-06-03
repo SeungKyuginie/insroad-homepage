@@ -126,7 +126,7 @@ export default function Home() {
             <div className="stats">
               <div className="stat">
                 <div className="num">2</div>
-                <div className="lab">개발 중인 자체 제품</div>
+                <div className="lab">자체 제품 라인업</div>
               </div>
               <div className="stat">
                 <div className="num">HR</div>
@@ -178,7 +178,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="pcard reveal">
-              <span className="badge">개발 중</span>
+              <span className="badge">서비스 중</span>
               <div className="pico">
                 <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.6">
                   <rect x="2" y="4" width="20" height="16" rx="3" />
@@ -188,8 +188,9 @@ export default function Home() {
               <h3>숏폼 영상 제작 도구</h3>
               <div className="ptag">Short-form Video Automation</div>
               <p>
-                숏폼 콘텐츠 제작의 반복 과정을 자동화하는 프로그램. 기획부터
-                편집까지 걸리는 시간을 대폭 줄여줍니다.
+                숏폼 콘텐츠 제작의 반복 과정을 자동화하는 자체 개발 프로그램.
+                기획부터 편집까지 걸리는 시간을 대폭 줄여주며, 현재 상용
+                서비스로 제공하고 있습니다.
               </p>
               <ul>
                 <li>영상 제작 워크플로우 자동화</li>
