@@ -699,10 +699,21 @@ footer.site-footer {
   .menu-btn {
     display: block;
   }
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 110px;
+  }
   .hero-logo {
-    opacity: .16 !important;
-    width: 90vw;
-    right: -20%;
+    position: relative;
+    top: auto;
+    right: auto;
+    transform: none;
+    width: 96px;
+    margin: 0 28px 28px;
+    opacity: 1;
+    animation: rise .9s .05s forwards;
+    align-self: flex-start;
   }
   .about-grid,
   .products-grid,
