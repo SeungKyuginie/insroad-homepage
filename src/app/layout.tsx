@@ -8,9 +8,11 @@ export const metadata: Metadata = {
   keywords: [
     "인스로드",
     "InsRoad",
+    "숏츠메이커",
+    "ShortsMaker",
+    "숏폼 영상 제작",
     "HR 솔루션",
     "인사관리",
-    "숏폼 영상 제작",
     "소프트웨어",
   ],
   openGraph: {

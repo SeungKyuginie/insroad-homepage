@@ -176,6 +176,14 @@ export default function Home() {
                 <li>급여 및 수당 계산 지원</li>
                 <li>노무 데이터 통합 관리</li>
               </ul>
+              <a
+                href="https://hr.insroad.co.kr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="pcard-link"
+              >
+                hr.insroad.co.kr →
+              </a>
             </div>
             <div className="pcard reveal">
               <span className="badge">서비스 중</span>
@@ -185,18 +193,26 @@ export default function Home() {
                   <path d="M10 9l5 3-5 3V9z" />
                 </svg>
               </div>
-              <h3>숏폼 영상 제작 도구</h3>
-              <div className="ptag">Short-form Video Automation</div>
+              <h3>숏츠메이커</h3>
+              <div className="ptag">ShortsMaker · Short-form Video Automation</div>
               <p>
-                숏폼 콘텐츠 제작의 반복 과정을 자동화하는 자체 개발 프로그램.
+                숏폼 콘텐츠 제작의 반복 과정을 자동화하는 자체 개발 서비스.
                 기획부터 편집까지 걸리는 시간을 대폭 줄여주며, 현재 상용
-                서비스로 제공하고 있습니다.
+                서비스로 운영 중입니다.
               </p>
               <ul>
                 <li>영상 제작 워크플로우 자동화</li>
                 <li>반복 편집 작업 간소화</li>
                 <li>콘텐츠 대량 생산 지원</li>
               </ul>
+              <a
+                href="https://shorts.insroad.co.kr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="pcard-link"
+              >
+                shorts.insroad.co.kr →
+              </a>
             </div>
           </div>
         </div>
