@@ -13,6 +13,8 @@ export const metadata: Metadata = {
     "숏폼 영상 제작",
     "HR 솔루션",
     "인사관리",
+    "사무업무 통합 시스템",
+    "사무 자동화",
     "소프트웨어",
   ],
   openGraph: {

@@ -129,7 +129,7 @@ export default function Home() {
               </div>
               <div className="stat">
                 <div className="num">HR</div>
-                <div className="lab">인사·노무 솔루션</div>
+                <div className="lab">인사·사무 통합 솔루션</div>
               </div>
               <div className="stat">
                 <div className="num">AI</div>
@@ -165,15 +165,17 @@ export default function Home() {
                 </svg>
               </div>
               <h3>HR 솔루션</h3>
-              <div className="ptag">인사 · 근태 · 노무 관리</div>
+              <div className="ptag">인사 · 근태 · 노무 · 사무업무 통합 시스템</div>
               <p>
-                중소기업과 소상공인을 위한 인사관리 솔루션. 근태, 급여, 근로
-                데이터를 한곳에서 관리하고 노무 리스크를 줄입니다.
+                중소기업과 소상공인을 위한 인사·사무업무 통합 솔루션. 근태,
+                급여, 근로 데이터부터 일상 사무 프로세스까지 한곳에서 관리해
+                흩어진 업무를 하나의 흐름으로 묶고 노무 리스크를 줄입니다.
               </p>
               <ul>
                 <li>근태·스케줄 관리 자동화</li>
                 <li>급여 및 수당 계산 지원</li>
                 <li>노무 데이터 통합 관리</li>
+                <li>사무업무 프로세스 일원화</li>
               </ul>
               <a
                 href="https://hr.insroad.co.kr"
