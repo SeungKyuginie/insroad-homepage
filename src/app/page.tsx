@@ -286,6 +286,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="cinfo-row">
+                <div className="k">전화</div>
+                <div className="v">
+                  <a href="tel:+82-70-8064-1478">070-8064-1478</a>
+                </div>
+              </div>
+              <div className="cinfo-row">
                 <div className="k">주소</div>
                 <div className="v">
                   서울특별시 중랑구 신내역로3길 40-36
@@ -320,7 +326,7 @@ export default function Home() {
                 서울특별시 중랑구 신내역로3길 40-36 신내데시앙플렉스 B동
                 1207호
               </div>
-              <div>kka@ginie.kr</div>
+              <div>kka@ginie.kr · 070-8064-1478</div>
             </div>
           </div>
           <div className="foot-bottom">
