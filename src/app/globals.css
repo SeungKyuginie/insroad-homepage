@@ -616,10 +616,10 @@ footer.site-footer {
 .foot-brand {
   display: inline-flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 .foot-brand img {
-  height: 56px;
+  height: 88px;
   width: auto;
   display: block;
 }
@@ -709,7 +709,7 @@ footer.site-footer {
     display: none;
   }
   .foot-brand img {
-    height: 48px;
+    height: 72px;
   }
   .about-grid,
   .products-grid,
