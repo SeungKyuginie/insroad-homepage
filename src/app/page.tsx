@@ -313,6 +313,7 @@ export default function Home() {
               <div>
                 <span className="hl">주식회사 인스로드</span> | 대표 김경애
               </div>
+              <div>사업자등록번호 501-88-03153</div>
               <div>
                 서울특별시 중랑구 신내역로3길 40-36 신내데시앙플렉스 B동
                 1207호
