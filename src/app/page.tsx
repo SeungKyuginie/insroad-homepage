@@ -308,7 +308,7 @@ export default function Home() {
       <footer className="site-footer">
         <div className="wrap">
           <div className="foot-top">
-            <div>
+            <div className="foot-brand-wrap">
               <div className="foot-brand">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/insroad-logo.png" alt="INSROAD" />

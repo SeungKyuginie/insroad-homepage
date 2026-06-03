@@ -614,16 +614,26 @@ footer.site-footer {
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
+.foot-brand-wrap {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
 .foot-brand {
   display: inline-flex;
   align-items: center;
-  margin-bottom: 28px;
+  margin-bottom: 0;
 }
 .foot-brand img {
-  height: 440px;
+  height: 200px;
   width: auto;
   max-width: 100%;
   display: block;
+}
+.foot-brand-wrap .foot-desc {
+  max-width: 220px;
+  margin: 0;
 }
 .foot-desc {
   color: var(--text-dim);
@@ -711,8 +721,14 @@ footer.site-footer {
     display: none;
   }
   .foot-brand img {
-    height: auto;
-    width: min(80vw, 320px);
+    height: 140px;
+    width: auto;
+  }
+  .foot-brand-wrap {
+    gap: 16px;
+  }
+  .foot-brand-wrap .foot-desc {
+    max-width: 100%;
   }
   .about-grid,
   .products-grid,
