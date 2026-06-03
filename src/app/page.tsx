@@ -35,9 +35,10 @@ export default function Home() {
     <>
       <header id="hdr" className="site-header">
         <div className="wrap nav">
-          <a href="#top" className="brand" aria-label="INSROAD 홈으로">
+          <a href="#top" className="brand" aria-label="주식회사 인스로드 홈으로">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/insroad-logo.png" alt="INSROAD" />
+            <span className="brand-co">주식회사 인스로드</span>
           </a>
           <nav className={`nav-links${menuOpen ? " open" : ""}`}>
             <a href="#about" onClick={() => setMenuOpen(false)}>
