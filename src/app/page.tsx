@@ -265,7 +265,7 @@ export default function Home() {
                 제품 도입, 제휴, 채용 등 무엇이든 편하게 연락 주세요. 빠르게
                 회신드리겠습니다.
               </p>
-              <a href="mailto:[교체-이메일주소]" className="btn btn-primary">
+              <a href="mailto:kka@ginie.kr" className="btn btn-primary">
                 이메일 보내기 →
               </a>
             </div>
@@ -276,23 +276,21 @@ export default function Home() {
               </div>
               <div className="cinfo-row">
                 <div className="k">대표</div>
-                <div className="v">[교체-대표자명]</div>
+                <div className="v">김경애</div>
               </div>
               <div className="cinfo-row">
                 <div className="k">이메일</div>
                 <div className="v">
-                  <a href="mailto:[교체-이메일주소]">[교체-이메일주소]</a>
-                </div>
-              </div>
-              <div className="cinfo-row">
-                <div className="k">전화</div>
-                <div className="v">
-                  <a href="tel:[교체-전화번호]">[교체-전화번호]</a>
+                  <a href="mailto:kka@ginie.kr">kka@ginie.kr</a>
                 </div>
               </div>
               <div className="cinfo-row">
                 <div className="k">주소</div>
-                <div className="v">[교체-사업장 주소]</div>
+                <div className="v">
+                  서울특별시 중랑구 신내역로3길 40-36
+                  <br />
+                  신내데시앙플렉스 B동 1207호
+                </div>
               </div>
             </div>
           </div>
@@ -313,20 +311,17 @@ export default function Home() {
             </div>
             <div className="foot-legal">
               <div>
-                <span className="hl">주식회사 인스로드</span> | 대표
-                [교체-대표자명]
+                <span className="hl">주식회사 인스로드</span> | 대표 김경애
               </div>
-              <div>사업자등록번호 [교체-000-00-00000]</div>
-              <div>[교체-사업장 주소]</div>
-              <div>[교체-이메일주소] · [교체-전화번호]</div>
+              <div>
+                서울특별시 중랑구 신내역로3길 40-36 신내데시앙플렉스 B동
+                1207호
+              </div>
+              <div>kka@ginie.kr</div>
             </div>
           </div>
           <div className="foot-bottom">
             <div>© 2026 InsRoad Co., Ltd. All rights reserved.</div>
-            <div>
-              <span className="ph">교체 필요</span> 대괄호 표시된 항목을 실제
-              정보로 바꾸세요
-            </div>
           </div>
         </div>
       </footer>
