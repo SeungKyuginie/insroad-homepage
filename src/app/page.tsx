@@ -37,7 +37,7 @@ export default function Home() {
         <div className="wrap nav">
           <a href="#top" className="brand" aria-label="주식회사 인스로드 홈으로">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/insroad-logo.png" alt="INSROAD" />
+            <img src="/insroadlogo.png" alt="INSROAD" />
             <span className="brand-co">주식회사 인스로드</span>
           </a>
           <nav className={`nav-links${menuOpen ? " open" : ""}`}>
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="grid-lines" />
         <div className="hero-logo">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/insroad-logo.png" alt="InsRoad 로고" />
+          <img src="/insroadlogo.png" alt="InsRoad 로고" />
         </div>
         <div className="wrap hero-inner">
           <span className="eyebrow">Software Company</span>
@@ -311,7 +311,7 @@ export default function Home() {
             <div className="foot-brand-wrap">
               <div className="foot-brand">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/insroad-logo.png" alt="INSROAD" />
+                <img src="/insroadlogo.png" alt="INSROAD" />
               </div>
               <p className="foot-desc">
                 HR 솔루션과 숏폼 영상 제작 도구를 개발하는 소프트웨어 기업.
