@@ -115,8 +115,8 @@ export default function Home() {
                 기술로 <em>사람의 시간</em>을 되찾아주는 회사.
               </p>
               <p className="body-txt">
-                주식회사 인스로드(InsRoad)는 HR 솔루션과 숏폼 영상 제작 도구를
-                개발하는 소프트웨어 기업입니다. 우리는 사람이 해야 할 판단에
+                주식회사 인스로드(InsRoad)는 HR 솔루션과 AI 기반 콘텐츠
+                제작 서비스를 개발하는 소프트웨어 기업입니다. 우리는 사람이 해야 할 판단에
                 집중할 수 있도록, 반복적이고 소모적인 업무를 기술로 대체합니다.
                 작지만 빠르게 움직이는 팀으로 실제 현장의 문제에서 출발한
                 제품을 만듭니다.
@@ -195,16 +195,18 @@ export default function Home() {
                 </svg>
               </div>
               <h3>숏츠메이커</h3>
-              <div className="ptag">ShortsMaker · Short-form Video Automation</div>
+              <div className="ptag">ShortsMaker · AI Content Creation Suite</div>
               <p>
-                숏폼 콘텐츠 제작의 반복 과정을 자동화하는 자체 개발 서비스.
-                기획부터 편집까지 걸리는 시간을 대폭 줄여주며, 현재 상용
+                AI 광고 영상, 상세페이지, 블로그 글, 숏폼 영상까지 마케팅에
+                필요한 콘텐츠를 한 곳에서 만들어내는 자체 개발 서비스.
+                기획부터 산출물까지 걸리는 시간을 대폭 줄여주며, 현재 상용
                 서비스로 운영 중입니다.
               </p>
               <ul>
-                <li>영상 제작 워크플로우 자동화</li>
-                <li>반복 편집 작업 간소화</li>
-                <li>콘텐츠 대량 생산 지원</li>
+                <li>AI 광고 영상 제작</li>
+                <li>상세페이지 자동 생성</li>
+                <li>블로그 글 작성</li>
+                <li>숏츠 제작 (정보성 · 릴스 감성)</li>
               </ul>
               <a
                 href="https://shorts.insroad.co.kr"
@@ -314,7 +316,7 @@ export default function Home() {
                 <img src="/insroadlogo.png" alt="INSROAD" />
               </div>
               <p className="foot-desc">
-                HR 솔루션과 숏폼 영상 제작 도구를 개발하는 소프트웨어 기업.
+                HR 솔루션과 AI 콘텐츠 제작 서비스를 개발하는 소프트웨어 기업.
               </p>
             </div>
             <div className="foot-legal">
