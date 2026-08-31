@@ -181,10 +181,11 @@ header.site-header.scrolled {
 .hero h1 {
   font-family: var(--serif);
   font-weight: 600;
-  font-size: clamp(2.7rem, 7vw, 5.4rem);
+  font-size: clamp(2.4rem, 5.6vw, 5.4rem);
   line-height: 1.04;
   letter-spacing: -.01em;
   margin-bottom: 26px;
+  max-width: 52%;
 }
 .hero h1 .line {
   display: block;
@@ -252,10 +253,10 @@ header.site-header.scrolled {
 }
 .hero-logo {
   position: absolute;
-  right: 3%;
+  right: 4%;
   top: 50%;
   transform: translateY(-50%);
-  width: min(45vw, 560px);
+  width: clamp(280px, 38vw, 560px);
   z-index: 1;
   opacity: 0;
   animation: fadeLogo 1.6s .4s forwards;
@@ -675,6 +676,18 @@ footer.site-footer {
 }
 
 /* ---------- responsive ---------- */
+@media (min-width: 861px) and (max-width: 1200px) {
+  .hero h1 {
+    max-width: 48%;
+  }
+  .hero p.lead {
+    max-width: 46%;
+  }
+  .hero-logo {
+    width: clamp(240px, 34vw, 420px);
+    right: 3%;
+  }
+}
 @media (max-width: 860px) {
   .nav-links,
   .nav-cta {
