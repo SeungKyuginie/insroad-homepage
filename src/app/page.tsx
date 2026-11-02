@@ -137,8 +137,8 @@ export default function Home() {
                 <div className="lab">콘텐츠 자동화</div>
               </div>
               <div className="stat">
-                <div className="num">B2B</div>
-                <div className="lab">기업 대상 서비스</div>
+                <div className="num">20</div>
+                <div className="lab">다국어 번역 채팅</div>
               </div>
             </div>
           </div>
