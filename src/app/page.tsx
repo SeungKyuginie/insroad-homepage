@@ -127,19 +127,19 @@ export default function Home() {
             <div className="stats">
               <div className="stat">
                 <div className="num">HR</div>
-                <div className="lab">인사·사무 통합 솔루션</div>
+                <div className="lab">인사·근태·노무·사무업무 통합 관리</div>
               </div>
               <div className="stat">
                 <div className="num">AI</div>
-                <div className="lab">콘텐츠 자동화</div>
+                <div className="lab">광고·상세페이지·블로그·숏츠 자동 생성</div>
               </div>
               <div className="stat">
                 <div className="num">20개 언어</div>
                 <div className="lab">실시간 번역 채팅</div>
               </div>
               <div className="stat">
-                <div className="num">지자체</div>
-                <div className="lab">계절근로자 관리</div>
+                <div className="num">지자체·농가</div>
+                <div className="lab">계절근로자 통합 관리</div>
               </div>
             </div>
           </div>
