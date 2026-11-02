@@ -158,7 +158,7 @@ export default function Home() {
           </div>
           <div className="products-grid">
             <div className="pcard reveal">
-              <span className="badge">개발 중</span>
+              <span className="badge">서비스 중</span>
               <div className="pico">
                 <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.6">
                   <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -171,6 +171,7 @@ export default function Home() {
                 중소기업과 소상공인을 위한 인사·사무업무 통합 솔루션. 근태,
                 급여, 근로 데이터부터 일상 사무 프로세스까지 한곳에서 관리해
                 흩어진 업무를 하나의 흐름으로 묶고 노무 리스크를 줄입니다.
+                이미 실제 현장에서 운영 중입니다.
               </p>
               <ul>
                 <li>근태·스케줄 관리 자동화</li>
