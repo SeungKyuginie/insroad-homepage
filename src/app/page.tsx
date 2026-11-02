@@ -127,7 +127,7 @@ export default function Home() {
             <div className="stats">
               <div className="stat">
                 <div className="num">HR</div>
-                <div className="lab">인사·근태·노무·사무업무 통합 관리</div>
+                <div className="lab">인사·근태·급여·세금·결재 통합 운영</div>
               </div>
               <div className="stat">
                 <div className="num">AI</div>
@@ -166,28 +166,33 @@ export default function Home() {
                   <path d="M3 21v-2a6 6 0 016-6h6a6 6 0 016 6v2" />
                 </svg>
               </div>
-              <h3>HR 솔루션</h3>
-              <div className="ptag">인사 · 근태 · 노무 · 사무업무 통합 시스템</div>
+              <h3>인스로드 SIS</h3>
+              <div className="ptag">InsRoad SIS · 인사·근태·급여·세금·전자결재 통합</div>
               <p>
-                중소기업과 소상공인을 위한 인사·사무업무 통합 솔루션. 근태,
-                급여, 근로 데이터부터 일상 사무 프로세스까지 한곳에서 관리해
-                흩어진 업무를 하나의 흐름으로 묶고 노무 리스크를 줄입니다.
-                이미 실제 현장에서 운영 중입니다.
+                중소기업과 소상공인을 위한 통합 운영 솔루션. 근태·급여·세금·
+                전자결재·매장 양식까지 한 화면에서 관리해 흩어진 사무업무를
+                하나의 흐름으로 묶고 노무 리스크를 줄입니다. 이미 실제 현장
+                에서 운영 중입니다.
               </p>
               <ul>
-                <li>근태·스케줄 관리 자동화</li>
-                <li>급여 및 수당 계산 지원</li>
-                <li>노무 데이터 통합 관리</li>
-                <li>사무업무 프로세스 일원화</li>
+                <li>근태·급여·4대보험·세금 자동 계산</li>
+                <li>세금계산서·전자결재 통합 관리</li>
+                <li>매장별 양식과 보고서 운영</li>
+                <li>PC·모바일 어디서나 같은 데이터</li>
               </ul>
-              <a
-                href="https://hr.insroad.co.kr"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="pcard-link"
-              >
-                hr.insroad.co.kr →
-              </a>
+              <div className="pcard-links">
+                <a href="/hr" className="pcard-link">
+                  자세히 보기 →
+                </a>
+                <a
+                  href="https://hr.insroad.co.kr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pcard-link pcard-link-sub"
+                >
+                  hr.insroad.co.kr
+                </a>
+              </div>
             </div>
             <div className="pcard reveal">
               <span className="badge">서비스 중</span>
