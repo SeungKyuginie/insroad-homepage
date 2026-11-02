@@ -212,6 +212,44 @@ export default function SeasonalWorkerPage() {
         </div>
       </section>
 
+      {/* COMPANION — 다말해 연동 */}
+      <section className="sec-pad sw-companion-sec">
+        <div className="wrap">
+          <div className="sec-head">
+            <span className="sec-tag">With Damalhae</span>
+            <h2>
+              <span className="sw-companion-accent">다말해</span> 연동 가능
+            </h2>
+            <p>
+              농가주는 한국어로, 근로자는 모국어로 씁니다. 각자 자기 말로
+              읽습니다. 작업 지시·일정·안전 안내를 20개 언어로 바로.
+            </p>
+          </div>
+          <div className="sw-companion">
+            <div className="sw-companion-copy">
+              <ul className="sw-companion-list">
+                <li>20개 언어 실시간 번역 · 음성 입력 지원</li>
+                <li>회원가입 없이 링크 하나로 바로 사용</li>
+                <li>작업 지시·안전 공지·일정 안내에 그대로 활용</li>
+              </ul>
+              <div className="sw-companion-actions">
+                <Link href="/damalhae" className="btn btn-ghost">
+                  다말해 자세히 보기 →
+                </Link>
+                <a
+                  href="https://chat.lording.co.kr/demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary sw-companion-btn"
+                >
+                  혼자서 체험하기
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CONTACT */}
       <section className="sec-pad" id="contact">
         <div className="wrap">

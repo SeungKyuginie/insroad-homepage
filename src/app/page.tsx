@@ -286,6 +286,7 @@ export default function Home() {
                 <li>농가 모바일 출근·근태 입력</li>
                 <li>체류·보험·점검 알림 센터</li>
                 <li>10개 이상 언어 근로계약서</li>
+                <li>다말해 연동으로 20개 언어 실시간 소통</li>
               </ul>
               <div className="pcard-links">
                 <a href="/seasonal-worker" className="pcard-link">

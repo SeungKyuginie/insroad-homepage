@@ -1344,3 +1344,53 @@ footer.site-footer {
 .contact-box.sh-cta-box::after {
   background: radial-gradient(circle, rgba(225, 29, 72, .14), transparent 70%);
 }
+
+/* ---------- seasonal-worker: 다말해 companion ---------- */
+.sw-companion-sec {
+  background: var(--bg-soft);
+}
+.sw-companion {
+  display: flex;
+  justify-content: center;
+}
+.sw-companion-copy {
+  max-width: 720px;
+}
+.sw-companion-accent {
+  color: var(--dh-teal);
+}
+.sw-companion-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.sw-companion-list li {
+  display: flex;
+  gap: 12px;
+  color: var(--text-mid);
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.75;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+.sw-companion-list li::before {
+  content: "—";
+  flex: none;
+  color: var(--dh-teal);
+}
+.sw-companion-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.btn.sw-companion-btn {
+  background: linear-gradient(135deg, #5EEAD4, var(--dh-teal-deep));
+  color: #0a0a0b;
+}
+.btn.sw-companion-btn:hover {
+  box-shadow: 0 10px 30px rgba(45, 212, 191, .3);
+}
