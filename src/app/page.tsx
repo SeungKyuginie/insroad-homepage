@@ -126,10 +126,6 @@ export default function Home() {
             </div>
             <div className="stats">
               <div className="stat">
-                <div className="num">4</div>
-                <div className="lab">자체 제품 라인업</div>
-              </div>
-              <div className="stat">
                 <div className="num">HR</div>
                 <div className="lab">인사·사무 통합 솔루션</div>
               </div>
@@ -140,6 +136,10 @@ export default function Home() {
               <div className="stat">
                 <div className="num">20</div>
                 <div className="lab">다국어 번역 채팅</div>
+              </div>
+              <div className="stat">
+                <div className="num">지자체</div>
+                <div className="lab">계절근로자 관리</div>
               </div>
             </div>
           </div>
