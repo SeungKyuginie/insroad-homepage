@@ -262,7 +262,7 @@ export default function Home() {
               </div>
             </div>
             <div className="pcard reveal">
-              <span className="badge">서비스 중</span>
+              <span className="badge">도입 상담 중</span>
               <div className="pico">
                 <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.6">
                   <path d="M9 3h6a2 2 0 012 2v1h3v15a1 1 0 01-1 1H5a1 1 0 01-1-1V6h3V5a2 2 0 012-2z" />
@@ -283,9 +283,14 @@ export default function Home() {
                 <li>체류·보험·점검 알림 센터</li>
                 <li>10개 이상 언어 근로계약서</li>
               </ul>
-              <a href="#contact" className="pcard-link">
-                도입 문의하기 →
-              </a>
+              <div className="pcard-links">
+                <a href="/seasonal-worker" className="pcard-link">
+                  자세히 보기 →
+                </a>
+                <a href="#contact" className="pcard-link pcard-link-sub">
+                  도입 문의하기
+                </a>
+              </div>
             </div>
           </div>
         </div>
