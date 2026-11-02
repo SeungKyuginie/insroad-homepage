@@ -276,10 +276,15 @@ export default function DamalhaePage() {
         <div className="wrap">
           <div className="sec-head">
             <span className="sec-tag dh-tag">Supported Languages</span>
-            <h2>20개 언어 지원</h2>
+            <h2>
+              지금은 20개 언어,
+              <br className="dh-br-mobile" />
+              <span className="dh-h2-accent"> 원하는 언어는 거의 다</span>
+            </h2>
             <p>
               화면 메뉴와 안내 문구까지 사용자 언어로 나옵니다. 음성 입력은
-              대부분의 언어를 지원합니다.
+              대부분의 언어를 지원합니다. 아래 목록에 없는 언어도 요청하시면
+              거의 모두 추가해 드립니다.
             </p>
           </div>
           <ul className="dh-langs">
@@ -287,6 +292,10 @@ export default function DamalhaePage() {
               <li key={l}>{l}</li>
             ))}
           </ul>
+          <p className="dh-langs-note">
+            찾으시는 언어가 없나요? <Link href="/#contact">문의 주시면</Link>{" "}
+            추가 가능 여부를 바로 알려드립니다.
+          </p>
         </div>
       </section>
 

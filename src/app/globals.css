@@ -1394,3 +1394,19 @@ footer.site-footer {
 .btn.sw-companion-btn:hover {
   box-shadow: 0 10px 30px rgba(45, 212, 191, .3);
 }
+
+/* damalhae languages note */
+.dh-langs-note {
+  margin-top: 32px;
+  text-align: center;
+  font-size: .92rem;
+  color: var(--text-mid);
+  font-weight: 300;
+}
+.dh-langs-note a {
+  color: var(--dh-teal);
+  border-bottom: 1px solid rgba(45, 212, 191, .3);
+}
+.dh-langs-note a:hover {
+  border-bottom-color: var(--dh-teal);
+}
