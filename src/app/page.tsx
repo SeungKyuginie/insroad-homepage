@@ -202,28 +202,32 @@ export default function Home() {
                   <path d="M10 9l5 3-5 3V9z" />
                 </svg>
               </div>
-              <h3>숏츠메이커</h3>
-              <div className="ptag">ShortsMaker · AI Content Creation Suite</div>
+              <h3>숏츠마법사</h3>
+              <div className="ptag">숏츠마법사 · 매장 홍보 콘텐츠 자동 제작</div>
               <p>
-                AI 광고 영상, 상세페이지, 블로그 글, 숏폼 영상까지 마케팅에
-                필요한 콘텐츠를 한 곳에서 만들어내는 자체 개발 서비스.
-                기획부터 산출물까지 걸리는 시간을 대폭 줄여주며, 현재 상용
-                서비스로 운영 중입니다.
+                매장 사진 몇 장만 올리면 유튜브 숏츠·인스타 릴스 영상, 네이버
+                블로그 글, 상세페이지, 홍보 배너까지 자동으로 만들어 드립니다.
+                마트·사진관 등 매장에서 현재 사용 중인 상용 서비스입니다.
               </p>
               <ul>
-                <li>AI 광고 영상 제작</li>
+                <li>숏츠·릴스 영상 자동 제작</li>
+                <li>네이버 블로그 글 작성</li>
                 <li>상세페이지 자동 생성</li>
-                <li>블로그 글 작성</li>
-                <li>숏츠 제작 (정보성 · 릴스 감성)</li>
+                <li>홍보 배너 제작</li>
               </ul>
-              <a
-                href="https://shorts.insroad.co.kr"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="pcard-link"
-              >
-                shorts.insroad.co.kr →
-              </a>
+              <div className="pcard-links">
+                <a href="/shorts" className="pcard-link">
+                  자세히 보기 →
+                </a>
+                <a
+                  href="https://shorts.insroad.co.kr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pcard-link pcard-link-sub"
+                >
+                  바로 써보기
+                </a>
+              </div>
             </div>
             <div className="pcard reveal">
               <span className="badge">파일럿 운영 중</span>

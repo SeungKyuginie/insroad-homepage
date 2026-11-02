@@ -1262,3 +1262,85 @@ footer.site-footer {
     gap: 56px;
   }
 }
+
+/* ---------- shorts (숏츠마법사) page ---------- */
+:root {
+  --sh-rose: #E11D48;
+  --sh-rose-bright: #FB7185;
+}
+.sh-hero,
+.sh-screens,
+.sh-features {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+.sh-eyebrow {
+  color: var(--sh-rose-bright) !important;
+}
+.sh-eyebrow::before {
+  background: var(--sh-rose-bright) !important;
+}
+.hero h1.sw-h1.sh-h1 em {
+  color: var(--sh-rose-bright);
+  font-style: normal;
+}
+.sh-tag {
+  color: var(--sh-rose-bright) !important;
+}
+.sh-h2-accent {
+  color: var(--sh-rose-bright);
+}
+.sh-num {
+  color: var(--sh-rose-bright) !important;
+}
+.sh-step-n {
+  border-color: var(--sh-rose) !important;
+  color: var(--sh-rose-bright) !important;
+}
+.btn.sh-btn-primary {
+  background: linear-gradient(135deg, var(--sh-rose-bright), var(--sh-rose));
+  color: #fff;
+}
+.btn.sh-btn-primary:hover {
+  box-shadow: 0 10px 30px rgba(225, 29, 72, .35);
+}
+.nav-cta.sh-cta {
+  color: var(--sh-rose-bright);
+}
+.nav-cta.sh-cta:hover {
+  background: var(--sh-rose);
+  color: #fff;
+  border-color: var(--sh-rose);
+}
+
+.sh-screens-sec {
+  background: var(--bg-soft);
+}
+.sh-screens {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 1100px) {
+  .sh-screens {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .sh-screens {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Features — 숏츠는 4묶음이라 2열이 자연스럽다 */
+.sh-features {
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 860px) {
+  .sh-features {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* contact 글로우 색 로즈로 */
+.contact-box.sh-cta-box::after {
+  background: radial-gradient(circle, rgba(225, 29, 72, .14), transparent 70%);
+}
