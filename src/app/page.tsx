@@ -221,7 +221,7 @@ export default function Home() {
               </a>
             </div>
             <div className="pcard reveal">
-              <span className="badge">서비스 중</span>
+              <span className="badge">파일럿 운영 중</span>
               <div className="pico">
                 <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.6">
                   <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
@@ -243,13 +243,8 @@ export default function Home() {
                 <li>이름·직함·존댓말까지 업무 맥락 반영</li>
               </ul>
               <div className="pcard-links">
-                <a
-                  href="https://chat.lording.co.kr"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="pcard-link"
-                >
-                  바로 쓰기 →
+                <a href="/damalhae" className="pcard-link">
+                  자세히 보기 →
                 </a>
                 <a
                   href="https://chat.lording.co.kr/demo"
