@@ -378,8 +378,13 @@ section {
 /* ---------- products ---------- */
 .products-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 26px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+@media (max-width: 1100px) {
+  .products-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 .pcard {
   position: relative;
@@ -494,6 +499,27 @@ section {
 .pcard-link:hover {
   gap: 12px;
   color: #fff;
+}
+.pcard-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 24px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+}
+.pcard-links .pcard-link {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+.pcard-link-sub {
+  font-weight: 400;
+  font-size: .82rem;
+  color: var(--text-mid);
+}
+.pcard-link-sub:hover {
+  color: var(--gold-bright);
 }
 
 /* ---------- values ---------- */

@@ -115,8 +115,9 @@ export default function Home() {
                 기술로 <em>사람의 시간</em>을 되찾아주는 회사.
               </p>
               <p className="body-txt">
-                주식회사 인스로드(InsRoad)는 HR 솔루션과 AI 기반 콘텐츠
-                제작 서비스를 개발하는 소프트웨어 기업입니다. 우리는 사람이 해야 할 판단에
+                주식회사 인스로드(InsRoad)는 HR 솔루션, AI 기반 콘텐츠
+                제작 서비스, 그리고 다국어 실시간 번역 채팅까지 개발하는
+                소프트웨어 기업입니다. 우리는 사람이 해야 할 판단에
                 집중할 수 있도록, 반복적이고 소모적인 업무를 기술로 대체합니다.
                 작지만 빠르게 움직이는 팀으로 실제 현장의 문제에서 출발한
                 제품을 만듭니다.
@@ -124,7 +125,7 @@ export default function Home() {
             </div>
             <div className="stats">
               <div className="stat">
-                <div className="num">2</div>
+                <div className="num">3</div>
                 <div className="lab">자체 제품 라인업</div>
               </div>
               <div className="stat">
@@ -216,6 +217,47 @@ export default function Home() {
               >
                 shorts.insroad.co.kr →
               </a>
+            </div>
+            <div className="pcard reveal">
+              <span className="badge">서비스 중</span>
+              <div className="pico">
+                <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.6">
+                  <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+                  <path d="M8 9h8M8 13h5" />
+                </svg>
+              </div>
+              <h3>다말해</h3>
+              <div className="ptag">Damalhae · 실시간 번역 채팅</div>
+              <p>
+                한국어로 쓰면 베트남 동료는 베트남어로, 태국 동료는 태국어로
+                읽습니다. 가입 없이 링크 하나로 바로 시작하는 20개 언어
+                실시간 번역 채팅. 외국인 직원·다국적 팀의 업무 소통을 위해
+                만들어진 서비스입니다.
+              </p>
+              <ul>
+                <li>20개 언어 실시간 번역</li>
+                <li>가입 없이 링크 하나로 시작</li>
+                <li>글·음성 메시지 모두 지원</li>
+                <li>이름·직함·존댓말까지 업무 맥락 반영</li>
+              </ul>
+              <div className="pcard-links">
+                <a
+                  href="https://chat.lording.co.kr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pcard-link"
+                >
+                  바로 쓰기 →
+                </a>
+                <a
+                  href="https://chat.lording.co.kr/demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pcard-link pcard-link-sub"
+                >
+                  혼자서 체험하기
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -316,7 +358,7 @@ export default function Home() {
                 <img src="/insroadlogo.png" alt="INSROAD" />
               </div>
               <p className="foot-desc">
-                HR 솔루션과 AI 콘텐츠 제작 서비스를 개발하는 소프트웨어 기업.
+                HR 솔루션, AI 콘텐츠 제작 서비스, 실시간 번역 채팅을 개발하는 소프트웨어 기업.
               </p>
             </div>
             <div className="foot-legal">
