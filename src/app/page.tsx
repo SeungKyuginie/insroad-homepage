@@ -310,7 +310,7 @@ export default function Home() {
                 제품 도입, 제휴, 채용 등 무엇이든 편하게 연락 주세요. 빠르게
                 회신드리겠습니다.
               </p>
-              <a href="mailto:kka@ginie.kr" className="btn btn-primary">
+              <a href="mailto:limbus2021@naver.com" className="btn btn-primary">
                 이메일 보내기 →
               </a>
             </div>
@@ -326,7 +326,7 @@ export default function Home() {
               <div className="cinfo-row">
                 <div className="k">이메일</div>
                 <div className="v">
-                  <a href="mailto:kka@ginie.kr">kka@ginie.kr</a>
+                  <a href="mailto:limbus2021@naver.com">limbus2021@naver.com</a>
                 </div>
               </div>
               <div className="cinfo-row">
@@ -370,7 +370,7 @@ export default function Home() {
                 서울특별시 중랑구 신내역로3길 40-36 신내데시앙플렉스 B동
                 1207호
               </div>
-              <div>kka@ginie.kr · 070-8064-1478</div>
+              <div>limbus2021@naver.com · 070-8064-1478</div>
             </div>
           </div>
           <div className="foot-bottom">
