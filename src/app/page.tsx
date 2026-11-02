@@ -116,8 +116,9 @@ export default function Home() {
               </p>
               <p className="body-txt">
                 주식회사 인스로드(InsRoad)는 HR 솔루션, AI 기반 콘텐츠
-                제작 서비스, 그리고 다국어 실시간 번역 채팅까지 개발하는
-                소프트웨어 기업입니다. 우리는 사람이 해야 할 판단에
+                제작 서비스, 다국어 실시간 번역 채팅, 그리고 외국인 계절
+                근로자 관리 프로그램까지 개발하는 소프트웨어 기업입니다.
+                우리는 사람이 해야 할 판단에
                 집중할 수 있도록, 반복적이고 소모적인 업무를 기술로 대체합니다.
                 작지만 빠르게 움직이는 팀으로 실제 현장의 문제에서 출발한
                 제품을 만듭니다.
@@ -125,7 +126,7 @@ export default function Home() {
             </div>
             <div className="stats">
               <div className="stat">
-                <div className="num">3</div>
+                <div className="num">4</div>
                 <div className="lab">자체 제품 라인업</div>
               </div>
               <div className="stat">
@@ -260,6 +261,32 @@ export default function Home() {
                 </a>
               </div>
             </div>
+            <div className="pcard reveal">
+              <span className="badge">서비스 중</span>
+              <div className="pico">
+                <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.6">
+                  <path d="M9 3h6a2 2 0 012 2v1h3v15a1 1 0 01-1 1H5a1 1 0 01-1-1V6h3V5a2 2 0 012-2z" />
+                  <path d="M9 11h6M9 15h4" />
+                </svg>
+              </div>
+              <h3>계절근로자 관리</h3>
+              <div className="ptag">지자체·농가 통합 관리 프로그램</div>
+              <p>
+                담당 공무원 한두 명이 수백 명을 엑셀로 관리하던 외국인
+                계절근로자 업무를 하나의 화면으로. 체류 만료, 임금 점검, 이탈
+                대응, 다국어 계약서까지 지자체 담당자와 농가가 함께
+                사용합니다.
+              </p>
+              <ul>
+                <li>근로자·농가 통합 대시보드</li>
+                <li>농가 모바일 출근·근태 입력</li>
+                <li>체류·보험·점검 알림 센터</li>
+                <li>10개 이상 언어 근로계약서</li>
+              </ul>
+              <a href="#contact" className="pcard-link">
+                도입 문의하기 →
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -359,7 +386,7 @@ export default function Home() {
                 <img src="/insroadlogo.png" alt="INSROAD" />
               </div>
               <p className="foot-desc">
-                HR 솔루션, AI 콘텐츠 제작 서비스, 실시간 번역 채팅을 개발하는 소프트웨어 기업.
+                HR 솔루션, AI 콘텐츠 제작 서비스, 실시간 번역 채팅, 계절근로자 관리 프로그램을 개발하는 소프트웨어 기업.
               </p>
             </div>
             <div className="foot-legal">

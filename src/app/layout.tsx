@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "주식회사 인스로드 | InsRoad",
   description:
-    "주식회사 인스로드(InsRoad)는 HR 솔루션, AI 콘텐츠 제작 서비스, 다국어 실시간 번역 채팅 '다말해'를 개발하는 소프트웨어 기업입니다.",
+    "주식회사 인스로드(InsRoad)는 HR 솔루션, AI 콘텐츠 제작 서비스 '숏츠메이커', 다국어 실시간 번역 채팅 '다말해', 외국인 계절근로자 관리 프로그램을 개발하는 소프트웨어 기업입니다.",
   keywords: [
     "인스로드",
     "InsRoad",
@@ -14,6 +14,10 @@ export const metadata: Metadata = {
     "Damalhae",
     "실시간 번역 채팅",
     "다국어 채팅",
+    "계절근로자 관리",
+    "외국인 근로자 관리",
+    "지자체 소프트웨어",
+    "농가 관리",
     "AI 광고 영상",
     "상세페이지 생성",
     "블로그 자동 작성",
@@ -28,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "주식회사 인스로드 | InsRoad",
     description:
-      "HR 솔루션, AI 콘텐츠 제작 서비스, 실시간 번역 채팅을 개발하는 소프트웨어 기업",
+      "HR 솔루션, AI 콘텐츠 제작 서비스, 실시간 번역 채팅, 계절근로자 관리 프로그램을 개발하는 소프트웨어 기업",
     type: "website",
     locale: "ko_KR",
   },
