@@ -134,8 +134,8 @@ export default function Home() {
                 <div className="lab">콘텐츠 자동화</div>
               </div>
               <div className="stat">
-                <div className="num">20</div>
-                <div className="lab">다국어 번역 채팅</div>
+                <div className="num">20개 언어</div>
+                <div className="lab">실시간 번역 채팅</div>
               </div>
               <div className="stat">
                 <div className="num">지자체</div>
