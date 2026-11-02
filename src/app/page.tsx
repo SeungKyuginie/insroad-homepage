@@ -166,8 +166,8 @@ export default function Home() {
                   <path d="M3 21v-2a6 6 0 016-6h6a6 6 0 016 6v2" />
                 </svg>
               </div>
-              <h3>인스로드 SIS</h3>
-              <div className="ptag">InsRoad SIS · 인사·근태·급여·세금·전자결재 통합</div>
+              <h3>인스로드 HR</h3>
+              <div className="ptag">InsRoad HR · 인사·근태·급여·세금·전자결재 통합</div>
               <p>
                 중소기업과 소상공인을 위한 통합 운영 솔루션. 근태·급여·세금·
                 전자결재·매장 양식까지 한 화면에서 관리해 흩어진 사무업무를

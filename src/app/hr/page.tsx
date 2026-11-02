@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "인스로드 SIS — HR·세무·결재 통합 운영 | 주식회사 인스로드",
+  title: "인스로드 HR — 인사·세무·결재 통합 운영 | 주식회사 인스로드",
   description:
-    "인사·근태·급여·세금·전자결재·매장 양식까지 하나의 화면으로. 중소기업과 소상공인을 위한 통합 운영 솔루션, 인스로드 SIS.",
+    "인사·근태·급여·세금·전자결재·매장 양식까지 하나의 화면으로. 중소기업과 소상공인을 위한 통합 운영 솔루션, 인스로드 HR.",
   openGraph: {
-    title: "인스로드 SIS — HR·세무·결재 통합 운영",
+    title: "인스로드 HR — 인사·세무·결재 통합 운영",
     description:
       "흩어진 사무업무를 하나의 흐름으로. 근로기준법 계산·4대보험·세금을 자동으로 반영합니다.",
     type: "website",
@@ -22,37 +22,37 @@ const HIGHLIGHTS: { title: string; desc: string; img: string; alt: string }[] = 
     title: "대시보드",
     desc: "오늘 할 일과 핵심 지표(근태·급여·결재)를 첫 화면에서 바로 확인합니다.",
     img: "/sis/01-dashboard.png",
-    alt: "SIS 대시보드 화면",
+    alt: "인스로드 HR 대시보드 화면",
   },
   {
     title: "근태 관리",
     desc: "출근·연차·연장·야간을 근로기준법 기준으로 자동 집계합니다. 월별·직원별 조회가 한 번에.",
     img: "/sis/02-attendance.png",
-    alt: "SIS 근태 관리 화면",
+    alt: "인스로드 HR 근태 관리 화면",
   },
   {
     title: "급여 시뮬레이션",
     desc: "정규·연장·야간 시간과 4대보험·세금을 반영한 실수령액을 즉시 계산해 비교합니다.",
     img: "/sis/03-payroll.png",
-    alt: "SIS 급여 시뮬레이션 화면",
+    alt: "인스로드 HR 급여 시뮬레이션 화면",
   },
   {
     title: "세금계산서",
     desc: "매입·매출 세금계산서를 한곳에서 관리하고 월별 집계를 바로 확인합니다.",
     img: "/sis/04-tax.png",
-    alt: "SIS 세금계산서 화면",
+    alt: "인스로드 HR 세금계산서 화면",
   },
   {
     title: "전자결재",
     desc: "휴가·지출·구매 등 결재 라인을 직접 설정하고 모바일에서도 승인할 수 있습니다.",
     img: "/sis/05-approval.png",
-    alt: "SIS 전자결재 화면",
+    alt: "인스로드 HR 전자결재 화면",
   },
   {
     title: "매장 양식",
     desc: "매장별 체크리스트·일일 보고서를 양식으로 운영해 본사가 실시간으로 모읍니다.",
     img: "/sis/06-store-form.png",
-    alt: "SIS 매장 양식 화면",
+    alt: "인스로드 HR 매장 양식 화면",
   },
 ];
 
@@ -111,7 +111,7 @@ export default function HrPage() {
         <div className="grid-lines" />
         <div className="wrap hero-inner sis-hero-inner">
           <div className="sis-hero-copy">
-            <span className="eyebrow">InsRoad SIS · HR·세무·결재 통합</span>
+            <span className="eyebrow">InsRoad HR · 인사·세무·결재 통합</span>
             <h1 className="sw-h1 sis-h1">
               <span className="line">
                 <span>엑셀과 메신저 사이,</span>
@@ -125,7 +125,7 @@ export default function HrPage() {
             <p className="lead">
               인사·근태·급여·세금·전자결재·매장 양식까지. 중소기업과 소상공인의
               흩어진 사무 업무를 하나의 흐름으로 묶는 통합 운영 솔루션,
-              인스로드 SIS.
+              인스로드 HR.
             </p>
             <div className="hero-actions">
               <a
@@ -145,7 +145,7 @@ export default function HrPage() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/sis/01-dashboard.png"
-              alt="SIS 대시보드 화면"
+              alt="인스로드 HR 대시보드 화면"
               loading="eager"
             />
           </div>
@@ -211,7 +211,7 @@ export default function HrPage() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/sis/07-mobile.png"
-                alt="SIS 모바일 대시보드 화면"
+                alt="인스로드 HR 모바일 대시보드 화면"
                 loading="lazy"
               />
             </div>
@@ -219,12 +219,12 @@ export default function HrPage() {
         </div>
       </section>
 
-      {/* WHY SIS */}
+      {/* WHY HR */}
       <section className="sec-pad">
         <div className="wrap">
           <div className="sec-head">
-            <span className="sec-tag">Why SIS</span>
-            <h2>왜 인스로드 SIS인가</h2>
+            <span className="sec-tag">Why HR</span>
+            <h2>왜 인스로드 HR인가</h2>
           </div>
           <div className="val-grid">
             {WHY.map(([k, v], i) => (
